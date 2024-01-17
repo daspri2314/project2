@@ -1,0 +1,187 @@
+
+/* responsive for mobile devices */
+
+     @media (max-width: 576px){
+      .container{
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      nav ul li{
+        display: none;
+      }
+     
+      nav i{
+        font-size: 25px;
+        font-weight: 700;
+        background-color: aliceblue;
+        padding: 10px 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        border-radius: 10px;
+        visibility: visible;
+      }
+      .he{
+        max-width: 100%;
+        margin: 0 auto;  
+      }
+      .h-text h1{
+       font-size: "30px";
+       max-width: 400px;
+       text-align: center;
+      }
+      .h-text p{
+        line-height: 16px;
+        text-align: center;
+      }
+      .input-area{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+      }
+      input{
+        align-items: center;
+        margin: 0 auto;
+      }
+
+      
+      .Pop{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 20px;
+        max-width: 100%;
+        margin: 0 auto;  
+      }
+      .Pop-text{
+        max-width: 300px;
+       
+      }
+      .Pop-text h1{
+        font-size: 30px;
+       
+      }
+      .Pop-text p{
+        width: 400px;
+       
+      }
+      .Pop-text li{
+        width: 400px;
+       
+      }
+      .Pop-img img{
+        width: 100%;
+        margin-top: 20px;
+        
+      }
+     
+      .Des-img{
+        grid-template-columns: repeat(1, 1fr);
+        
+     }
+      .Des-img1{
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .Des-img1 .c1 img{
+        width: 100%;
+      
+       
+      }
+      .Des-img1 .c2{
+        max-width: 100%;
+       
+      }
+      .Des-img1 .c3{
+        width: 100%;
+        
+      }
+      .Des-img2 .c1{
+        width: 100%;
+       
+      }
+      .Des-img2 .c2{
+        width: 100%;
+       
+      }
+
+      
+
+      .Ch-img{
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .ch-box{
+        width: 350px;
+      }
+      .ch-box p{
+        width: 340px;
+      }
+
+
+      .Dis-box{
+        width: 100%;
+      }
+     
+      .discount-small-box{
+        width: 360px;
+        margin-left: 10px;
+        
+        
+        
+      }
+      
+      .date{
+        gap: 2px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       
+        
+      }
+      .dis-info{
+        padding: 5px;
+        
+      }
+     
+      .discount-small-box h4{
+        width: 340px;
+        line-height: 20px;
+      }
+      
+      .new{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 30px;
+      }
+      .con-section{
+        width: 350px;
+       padding: 5px 10px;
+       height: 350px;
+       margin-bottom: 20px;
+      }
+      .news p{
+        padding-left: 12px;
+      }
+      .news h1{
+        padding-left: 12px;
+        padding-top: 10px;
+      }
+
+      .input input{
+        width: 300px;
+       
+      }
+      .btn{
+        width: 350px;
+      }
+      .images-section img{
+        width: 100%;
+      }
+      .offer{
+        margin-left: 10px;
+       
+      }
+      .offer h1{
+        font-size: 30px;
+        transform: rotate(-7deg);
+      padding: 0;
+      }
+      
